@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(227, 224, 224);
+}
+.inputs{
+    width:90%;
+    margin: 1rem;
+    padding: 0.5rem;
+    /* margin-right: 10rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    margin-top: 1rem;
+}
+p{
+    display: inline;
+}
+button[type="submit"]{
+    margin-top: 1rem;
+    height:2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    border-radius: 5px;
+    color:white;
+}
+.tableList{
+    display:flex;
+    margin-right: 4rem;
+    justify-content: space-evenly;
+}
+h2,h3{
+    text-align: center;
+    margin-right: 4rem;
+}
+.tablediv{
+    width:30%;
+    height:15rem;
+    border:2px solid black;
+    border-radius: 2px;
+    overflow: scroll;
+}
+input{
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 4px;
+    height:2rem
+}
+select{
+    width:5rem;
+    height:1.5rem;
+}
+li{
+    margin-top:1rem;
+}
