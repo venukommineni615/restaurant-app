@@ -1,5 +1,5 @@
 let urlInstance=axios.create({
-    baseURL:"https://crudcrud.com/api/1e7a486944e5464a85e82ed4724e4ae1"
+    baseURL:"https://crudcrud.com/api/9f1bdfe0a5554fa78178dff93d3e7d3f"
 })
 function addBill(event){
     event.preventDefault()
@@ -12,8 +12,7 @@ function addBill(event){
     urlInstance.post("/orders",details)
     .then((res)=>{
         event.target.recipe.value=""
-        event.target.recipe.value=""
-        event.target.recipe.value=""
+        event.target.price.value=""
         addOrder(res.data)
     })
     .catch(err=>{console.log(err)})
